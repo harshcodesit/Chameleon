@@ -1,0 +1,18 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="row mt-3">
+    <h2 class="col-6 offset-3">Login to Camelon</h2>
+    <div class="col-6 offset-3">
+        <form action="/user/login" method="POST" class="needs-validation" novalidate>
+            <div>
+                <label for="username" class="form-label">username</label>
+                <input name="username" class="form-control" id="username" required>
+            </div>
+            <div>
+                <label for="password" class="form-label">Password</label>
+                <input name="password" class="form-control" id="password" type="password" required>
+            </div>
+            <button class="btn btn-dark mt-5 signup-btn">Login</button>
+        </form>
+    </div>
+</div>

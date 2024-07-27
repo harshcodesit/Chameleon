@@ -1,0 +1,137 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+/* navbar */
+.fa-opensuse{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.nav-link{
+    color: #222222 !important;
+    font-weight: 900;
+}
+
+/* footer */
+.f-socials {
+    width: 100%;
+    font-size: 1.5rem   ;
+    color: black;
+    
+}
+.f-socials i{
+ margin: 1rem;
+}
+
+.f-socials a{
+    color: black;
+}
+.f-socials a:hover{
+    color: #fe424d;
+}
+
+.f-links{
+    width: 100%;
+}
+
+.f-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-info{
+    border: 1px solid grey;
+    text-align: center;
+    height: 8rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    color: black;
+}
+
+/* card */
+.listing-card{
+     border: none !important;
+     margin: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.row a{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+
+.btn-dark{
+    width: 100%;
+}
+
+/* show */
+.show-img{
+    height: 30vh !important;
+}
+
+.edit-btn{
+     background-color: #fe424d !important;
+} 
+.edit-btn:hover{
+    background-color: black !important;
+} 
+.name{
+    text-decoration: underline !important;
+}
+.sumbtn{
+    width: 20%;
+}
+.rev-div{
+    background-color: #f7f7f9 !important;
+}
+
+/* review */
+.star{
+    color: #fe424d;
+}
+
+/* signup */
+.signup-btn{
+    background-color: #fe424d !important;
+}
+.sgn-btn{
+    color: #fe424d !important;
+}
+
+/* map */
+#map{
+    height: 400px;
+    width: 56vw;
+}
